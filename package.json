@@ -1,0 +1,27 @@
+{
+  "name": "seed-table",
+  "version": "1.0.0",
+  "description": "Seed DynamoDB Table",
+  "main": "seed-table.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thisisthetechie/seed-table.git"
+  },
+  "keywords": [],
+  "author": "Lazu George Mihai",
+  "license": "ISC",
+  "dependencies": {
+    "@actions/core": "^1.10.1",
+    "@actions/github": "^6.0.0",
+    "@aws-sdk/client-dynamodb": "^3.490.0",
+    "@aws-sdk/client-sts": "^3.490.0",
+    "@aws-sdk/lib-dynamodb": "^3.490.0"
+  },
+  "bugs": {
+    "url": "https://github.com/thisisthetechie/seed-table/issues"
+  },
+  "homepage": "https://github.com/thisisthetechie/seed-table#readme"
+}
